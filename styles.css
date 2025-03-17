@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Inter-Var;
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+} 
+@font-face {
+  font-family: Inter-Reg;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-SemiB;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+* {
+  font-size: 14px;
+  font-family: Inter-Reg;
+}
+.attribution { 
+  font-size: 11px; text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  border: 0px;
+}
+#main-div {
+  background-color: hsl(0, 0%, 12%);
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  position: relative;
+  margin: 5% auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+.whiteFont {
+color: hsl(0, 0%, 100%);
+}
+.yellowFont {
+  color: hsl(75, 94%, 57%);
+}
+.greyFont {
+  color: hsl(0, 0%, 64%);
+}
+.button {
+  font-family: Inter-SemiB;
+  background-color: hsl(0, 0%, 20%);
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+h1 {
+  font-size: 2rem;
+  font-family: Inter-Var;
+  font-weight: 500;
+}
+.image {
+  border-radius: 50%;
+  height: 120px;
+}
+.button:hover {
+  background-color:hsl(75, 94%, 57%);
+  color:hsl(0, 0%, 20%);
+}
+a {
+  text-decoration: none;
+}
