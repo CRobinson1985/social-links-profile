@@ -30,6 +30,8 @@
 body {
   background-color: hsl(0, 0%, 8%);
   border: 0px;
+  margin: 0%;
+  
 }
 #main-div {
   background-color: hsl(0, 0%, 12%);
@@ -77,4 +79,14 @@ h1 {
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 450px) {
+  #main-div {
+    padding: 25px;
+  }
+}
+@media (max-width: 400px) {
+  #main-div {
+    padding: 0px;
+  }
 }
