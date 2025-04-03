@@ -15,9 +15,8 @@
   src: url(assets/fonts/static/Inter-SemiBold.ttf);
 }
 * {
-  font-size: 14px;
-  font-family: Inter-Reg;
   box-sizing: border-box;
+  
 }
 .attribution { 
   font-size: 11px; text-align: center;
@@ -29,23 +28,28 @@
   color: hsl(228, 45%, 44%); 
 }
 body {
+  font-family: Inter-Reg;
+  font-size: 14px;
   background-color: hsl(0, 0%, 8%);
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
+  height: auto;
   width: 100vw;
   margin: 0;
-
+  padding: 0;
 }
 #main-div {
   background-color: hsl(0, 0%, 12%);
+  width: 340px;
   height: fit-content;
   align-items: center;
-  padding: 5%;
-  margin-top: 5vh; 
+  padding: 30px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
+  margin: 5% auto;
   
   
 }
@@ -70,7 +74,7 @@ color: hsl(0, 0%, 100%);
   justify-content: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.1rem;
   font-family: Inter-Var;
   font-weight: 500;
 }
@@ -85,36 +89,13 @@ h1 {
 a {
   text-decoration: none;
 }
-@media (max-width: 600px) {
-  #main-div {
-    width: 80vw;
-  }
-  
-}
-@media (min-width: 601px) {
-  #main-div {
+@media (orientation: portrait) {
+  body {
+    height: 100vh;
     
   }
-  
-}
+  #main-div {
+    
 
-@media (min-width: 768px) {
-  #main-div {
-    
   }
   
-}
-
-@media (max-width: 1024px) {
-  #main-div {
-    
-  }
-  
-}
-
-@media (max-width: 1280px) {
-  #main-div {
-    
-  }
-  
-}
